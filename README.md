@@ -1,4 +1,4 @@
-# mareaalcalina-com
+# Marea Alcalina
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,133 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-mareaalcalina-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://mareaalcalina.com/
+Marea Alcalina provides a digital catalog platform enabling businesses in Latin America to create online product catalogs and receive orders via WhatsApp. The service includes tools for menu creation, inventory management, payment integration with Stripe and PayPal, and analytics to help merchants grow. It targets small and medium enterprises seeking a simple, WhatsApp‑based e‑commerce solution.
+
+**Areas:** Company
+
+## Marea Alcalina on APIs.io
+
+Everything profiled for Marea Alcalina is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mareaalcalina-com/](https://apis.io/providers/mareaalcalina-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [Marea Alcalina Me API](https://apis.io/apis/mareaalcalina-com/mareaalcalina-com-me-api/) — The Me API from Marea Alcalina — 1 operation(s) for me.
+- [Marea Alcalina Storefronts API](https://apis.io/apis/mareaalcalina-com/mareaalcalina-com-storefronts-api/) — The Storefronts API from Marea Alcalina — 5 operation(s) for storefronts.
+- [Marea Alcalina Users API](https://apis.io/apis/mareaalcalina-com/mareaalcalina-com-users-api/) — The Users API from Marea Alcalina — 5 operation(s) for users.
+- [Marea Alcalina Webhook Endpoints API](https://apis.io/apis/mareaalcalina-com/mareaalcalina-com-webhook-endpoints-api/) — The Webhook Endpoints API from Marea Alcalina — 3 operation(s) for webhook endpoints.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Marea Alcalina Agentic Access](https://apis.io/agentic-access/mareaalcalina-com/mareaalcalina-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [BootstrapInput](https://apis.io/schemas/mareaalcalina-com/mareaalcalina-com-bootstrap-input/)
+- [MeResponse](https://apis.io/schemas/mareaalcalina-com/mareaalcalina-com-me-response/)
+- [ProductManifest](https://apis.io/schemas/mareaalcalina-com/mareaalcalina-com-product-manifest/)
+- [ProductManifestPatch](https://apis.io/schemas/mareaalcalina-com/mareaalcalina-com-product-manifest-patch/)
+- [StorefrontManifest](https://apis.io/schemas/mareaalcalina-com/mareaalcalina-com-storefront-manifest/)
+- [StorefrontManifestPatch](https://apis.io/schemas/mareaalcalina-com/mareaalcalina-com-storefront-manifest-patch/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Mareaalcalina Com Context](https://apis.io/jsonld/mareaalcalina-com/mareaalcalina-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Marea Alcalina API Rules](https://apis.io/rules/mareaalcalina-com/mareaalcalina-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Marea Alcalina Authentication](https://apis.io/security/mareaalcalina-com/mareaalcalina-com-authentication/)
+- [Marea Alcalina Domain Security](https://apis.io/security/mareaalcalina-com/mareaalcalina-com-domain-security/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Marea Alcalina Rate Limits](https://apis.io/rate-limits/mareaalcalina-com/mareaalcalina-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://mareaalcalina.com/)
+- [Documentation](https://docs.mareaalcalina.com/)
+- [Getting started](https://docs.mareaalcalina.com/quickstart/products)
+- [API reference](https://docs.mareaalcalina.com/api/use-this-to-confirm-which-user-or-developer-the-calling-key-acts-as)
+- [Pricing](https://mareaalcalina.com/plans)
+- [Changelog](https://docs.mareaalcalina.com/changelog)
+- [Blog](https://blog.mareaalcalina.com/)
+- [Terms of service](https://mareaalcalina.com/terms)
+- [Privacy policy](https://mareaalcalina.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 52.4** — developing · rubric 0.28.0 · scored 2026-11-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 60.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 47.1 |
+| Developer ergonomics | 52.4 |
+| Access clarity | 25.5 |
+
+**Agent readiness 62.2** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | documented (partial credit) |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/mareaalcalina-com/](https://apis.io/providers/mareaalcalina-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Marea Alcalina: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/mareaalcalina-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
